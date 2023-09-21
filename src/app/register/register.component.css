@@ -1,0 +1,14 @@
+@keyframes lightStreak {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5; /* Réglez l'opacité désirée pour l'état de concentration */
+    }
+}
+
+.letter {
+    display: inline-block;
+    animation: lightStreak 5s ease-in-out infinite;
+}
+
