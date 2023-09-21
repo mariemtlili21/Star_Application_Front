@@ -27,4 +27,33 @@
     box-shadow: 0 0 15px 4px #2196F3; /* Increase the box shadow on hover for a stronger glow */
 }
 
+/* Style for the search input container */
+.search-input {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the search input field */
+.search-input input[type="text"] {
+    flex: 1;
+    padding-right: 40px; /* Adjust the padding to control the distance between input and icon */
+}
+
+/* Style for the search button */
+.search-button {
+    background: beige;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+/* Style for the search icon */
+.search-button i {
+    position: absolute;
+    right: 5px; /* Adjust the position as needed */
+    font-size: 20px; /* Adjust the icon size as needed */
+    color: #333; /* Adjust the icon color as needed */
+}
 
