@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class SimpleUserServiceService {
 
   private baseUrl = 'http://localhost:8083/signup'; // Url backend de register
-  private baseUrl1 = 'http://localhost:8083/signup'; // URL backend de login
+  
 
 
   constructor(private http: HttpClient) { }
